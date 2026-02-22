@@ -34,3 +34,13 @@ I engineered two new categorical features to allow for better "slicing" in the P
     * **High:** 2800mm to 4103mm
 
 ---
+## 📊 Dashboard Insights
+The resulting Power BI dashboard (connected via Snowflake) reveals:
+* **Seasonal Consistency:** Average rainfall remains remarkably steady across Rabi, Kharif, and Zaid seasons (~3070mm to 3105mm).
+* **Crop Sensitivity:** Paddy and Arecanut are the highest moisture-consuming crops, requiring over 5.5K average rainfall.
+* **Top Locations:** Bangalore and Karwar emerged as the highest rainfall regions in the dataset.
+
+### Dashboard Preview
+![Agriculture Analysis Dashboard](./power-bi/dashboard_ss.png)
+
+---
