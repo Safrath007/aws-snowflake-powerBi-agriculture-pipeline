@@ -55,3 +55,8 @@ The resulting Power BI dashboard (connected via Snowflake) reveals:
 ![Agriculture Analysis Dashboard](./power-bi/dashboard_ss.png)
 
 ---
+## 📝 How to Replicate
+1.  **AWS Setup:** Upload your data to S3 and configure the IAM Role ARN.
+2.  **Snowflake Integration:** Run the `CREATE STORAGE INTEGRATION` script provided in the `/sql` folder.
+3.  **ETL Process:** Execute the DDL and DML scripts to load and transform the `Agriculture` table.
+4.  **Power BI:** Connect to your Snowflake warehouse to view the pre-modeled data.
