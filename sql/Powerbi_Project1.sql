@@ -1,11 +1,12 @@
- CREATE OR REPLACE STORAGE INTEGRATION PBI_Integration
+// --- STORAGE INTEGRATION (Masked for Security) ---
+CREATE OR REPLACE STORAGE INTEGRATION PBI_Integration
   TYPE = EXTERNAL_STAGE
   STORAGE_PROVIDER = 'S3'
   ENABLED = TRUE
-  STORAGE_AWS_ROLE_ARN = 'arn:aws:iam::523902091150:role/powerbi.role'
-  STORAGE_ALLOWED_LOCATIONS = ('s3://powerbi10231.project/')
-  COMMENT = 'Optional Comment'
-
+  -- Replace 'XXXXXXXXXXXX' with your actual AWS Account ID when running locally
+  STORAGE_AWS_ROLE_ARN = 'arn:aws:iam::XXXXXXXXXXXX:role/powerbi.role'
+  STORAGE_ALLOWED_LOCATIONS = ('s3://powerbi.project/')
+  COMMENT = 'Integration for Power BI Project';
 
   //description Integration Object
   desc integration PBI_Integration;
