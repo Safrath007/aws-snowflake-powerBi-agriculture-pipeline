@@ -21,3 +21,16 @@ To account for specific analysis parameters, I adjusted the raw figures using sc
 * **Rainfall Adjustment:** Increased all rainfall values by 10% (`1.1 * rainfall`) to simulate specific climate scenarios.
 * **Area Adjustment:** Scaled down the area figures by 10% (`0.9 * area`) for data normalization.
 
+### 2. Feature Engineering (Categorization)
+I engineered two new categorical features to allow for better "slicing" in the Power BI dashboard:
+
+* **Year Groups:** Created a `Year_Group` column to segment data into specific eras:
+    * **Y1:** 2004 – 2009
+    * **Y2:** 2010 – 2015
+    * **Y3:** 2016 – 2019
+* **Rainfall Buckets:** Created a `rainfall_groups` column to classify moisture levels:
+    * **Low:** 255mm to < 1200mm
+    * **Medium:** 1200mm to < 2800mm
+    * **High:** 2800mm to 4103mm
+
+---
