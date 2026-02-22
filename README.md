@@ -13,3 +13,11 @@
 * **Business Intelligence:** Power BI
 
 ---
+## 🏗️ Data Transformation & Engineering (SQL)
+After the initial ingestion from AWS S3, I performed several critical transformations in Snowflake to prepare the data for visualization. 
+
+### 1. Data Normalization & Correction
+To account for specific analysis parameters, I adjusted the raw figures using scalar operations:
+* **Rainfall Adjustment:** Increased all rainfall values by 10% (`1.1 * rainfall`) to simulate specific climate scenarios.
+* **Area Adjustment:** Scaled down the area figures by 10% (`0.9 * area`) for data normalization.
+
