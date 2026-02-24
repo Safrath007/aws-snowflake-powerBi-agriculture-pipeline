@@ -13,6 +13,19 @@
 * **Business Intelligence:** Power BI
 
 ---
+
+## 🏗️ System Architecture
+To handle the scale of agricultural data, I implemented a decoupled cloud architecture that separates storage (AWS), compute (Snowflake), and visualization (Power BI).
+
+![Cloud Data Pipeline Architecture](./architecture/architecture.png)
+
+* **Data Lake (AWS S3):** Acts as the landing zone for raw agricultural CSV files.
+* **Storage Integration:** Uses AWS IAM roles to provide Snowflake secure, credential-less access to the S3 bucket.
+* **Data Warehouse (Snowflake):** Handles the ETL process, data modeling, and feature engineering.
+* **BI Layer (Power BI):** Connects to the refined Snowflake views to generate interactive reports.
+
+
+---
 ## 🏗️ Data Transformation & Engineering (SQL)
 After the initial ingestion from AWS S3, I performed several critical transformations in Snowflake to prepare the data for visualization. 
 
