@@ -56,6 +56,18 @@ The resulting Power BI dashboard (connected via Snowflake) reveals:
 ### Dashboard Preview
 ![Agriculture Analysis Dashboard](./images/Dashboard-Rainfall-Analysis.png)
 
+---
+
+## 📂 Repository Structure
+
+| Folder | Description |
+| :--- | :--- |
+| [📁 /architecture](./architecture) | Contains the system architecture diagrams and design documentation. |
+| [📁 /images	Screenshots of the four dashboard of analysis. |
+| [📁 /sql](./sql) | Snowflake scripts for Storage Integration, Data Loading (ETL), and Feature Engineering. |
+| [📁 /powerbi](./powerbi) | The `.pbix` report file and high-resolution dashboard screenshots. |
+| [📁 /data](./data) | Sample CSV dataset used for the initial S3 ingestion. |
+
 
 ---
 ## 📝 How to Replicate
