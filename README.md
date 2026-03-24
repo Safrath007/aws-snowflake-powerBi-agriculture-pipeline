@@ -6,6 +6,13 @@
 
 ---
 
+## 🔗 Live Interactive Dashboard
+Experience the full interactivity of the agricultural data pipeline. You can filter by crop type, season, and location to see the Snowflake transformations in action:
+
+> **[👉 View Live Dashboard on Power BI Service](https://app.powerbi.com/links/_vf6UTcU10?ctid=80832e88-622e-411f-9f80-2d5f462bd539&pbi_source=linkShare)**
+
+*Note: For the best experience, view the dashboard in full-screen mode.*
+
 ## 🛠️ Tech Stack
 * **Cloud Infrastructure:** AWS S3 (Data Lake), AWS IAM (Identity & Access Management)
 * **Data Warehouse:** Snowflake (Storage Integration & ETL)
